@@ -183,7 +183,7 @@ const instructions = [
 /* 17 */ { opcode: "ADD", arg1: 3, arg2: 4, target: 8 }, // next = prev + curr
 /* 18 */ { opcode: "SET", arg1: 4, target: 3 },          // prev = curr
 /* 19 */ { opcode: "SET", arg1: 8, target: 4 },          // curr = next
-/* 20 */ { opcode: "RETURN" }                            // Return result in registers[8]
+/* 20 */ { opcode: "RETURN" }                            // Return result
 ];
 
 const vm = new VM(instructions);
